@@ -8,6 +8,10 @@ import utils.visual_analysis as visual_analysis
 # The app uses functions from the utils.privacy_violation and utils.profanity modules to perform the necessary processing.
 # The app also includes error handling to ensure that the user selects a valid implementation type and model before processing the conversation data.
 
+
+st.set_page_config(page_title="VoiceWise", page_icon="📊")
+st.title("VoiceWise - Conversation Analysis App")
+
 # get file input from user
 uploaded_file = st.file_uploader("Choose a file", type=["json"])
 
