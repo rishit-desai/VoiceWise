@@ -32,4 +32,4 @@ Follow these steps to set up the project:
 
 ## Additional Notes
 
-- Ensure you have the required versions of python installed. Check the `package.json` or `requirements.txt` for version details.
+- Ensure you have the required versions of python installed. Check the `requirements.txt` for version details.
