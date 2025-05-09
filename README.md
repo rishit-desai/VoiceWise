@@ -30,6 +30,32 @@ Follow these steps to set up the project:
     streamlit run main.py
     ```
 
+
+## Visualization usage intrsuctions
+
+Follow these steps to use the visualization features of the application:
+
+1. **Create folder structure**:
+    - Create a folder named `Data` in the root directory of the project.
+    - Inside the `Data` folder, paste the `json` files you want to visualize.
+    - The folder structure should look like this:
+    ```
+    VoiceWise
+    ├── Data
+    │   ├── file1.json
+    │   ├── file2.json
+    ```
+
+2. **Install Dependencies**:
+    - Ensure you have the required dependencies installed(jupyter). You can do this by running:
+    ```bash
+    pip install -r requirements.txt
+    pip install jupyter
+    ```
+3. **Run the ipynb file**:
+    - Open the `call_metrics_visualization.ipynb` file in Jupyter Notebook or Jupyter Lab.
+    - Run the cells in the notebook to visualize the data from the JSON files.
+
 ## Additional Notes
 
-- Ensure you have the required versions of python installed. Check the `requirements.txt` for version details.
+- Ensure you have the required version of python installed (3.11.*). Check the `requirements.txt` for version details.
