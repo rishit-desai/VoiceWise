@@ -133,6 +133,8 @@ def analyze_call_timeline(utterances, total_duration=None):
                - silence_intervals (list of tuples): (start_time, end_time) of silence.
                - overtalk_intervals (list of tuples): (start_time, end_time) of overtalk.
                - max_time (float): The maximum time in the call.
+               - silence_percentage (float): Percentage of silence in the call.
+               - overtalk_percentage (float): Percentage of overtalk in the call.
     """
     silence_intervals = []
     overtalk_intervals = []
